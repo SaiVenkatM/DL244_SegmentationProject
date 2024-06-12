@@ -1,25 +1,24 @@
 # 3D abdominal multi-organ segmentation
 
 
-This repository contains pytorch implementation corresponding to single-task and multi-task models.
+This repository contains pytorch implementation of single task and multitask models.
 
 ## 3D baseline models:
 1. 3D UNet
 2. 3D Attention-UNet
 
-## 3D boundary-constrained models3. 3D UNet-MTL-TSD
-1. 3D UNet++-MT-D
+## 3D boundary models. 
+1. 3D UNet-MT-D
 2. 3D Attention-UNet-MT-D
 
 
 ## Downloading the datasets:
 
-First download the datasets from links below:
-1. BTCV dataset {For images: Use [Link1](https://www.synapse.org/#!Synapse:syn3193805) , For labels: Use [Link2](https://zenodo.org/record/1169361#.YnIytuhBw2w)}
+Download the datasets from links below:
+1. BTCV dataset {[Link1](https://www.synapse.org/#!Synapse:syn3193805)  [Link2](https://zenodo.org/record/1169361#.YnIytuhBw2w)}
 
 ## Dataset preparation:
-1. To prepare the data, we use the pipeline utilized in [Obelisk-Net](https://www.sciencedirect.com/science/article/abs/pii/S136184151830611X) paper
-2. Use the ITK-snap to crop the scans and labels according to the bounding box coordinates given on [Link2](https://zenodo.org/record/1169361#.YnIytuhBw2w).
+1. Prepare the data, we utilized the pipeline desribed in [Obelisk-Net](https://www.sciencedirect.com/science/article/abs/pii/S136184151830611X) paper
 
 ## Dataset organization
 ### Organization of Data for training baseline models:
