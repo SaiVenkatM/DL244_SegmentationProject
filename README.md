@@ -1,4 +1,4 @@
-# 3D abdominal multi-organ segmentation
+# 3D abdominal organ segmentation
 
 
 This repository contains pytorch implementation of single task and multitask models.
