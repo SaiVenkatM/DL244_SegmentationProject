@@ -58,7 +58,7 @@ To train the baseline models, use the following command:
 
 `python trainBaselineModels.py --b 4 --e 100 --m unet --lr 0.001 --data_folder 'path where the data is stored' --output_folder 'path to save the results'`
 
-To train the boundary-constrained models, use the following command:
+To train the boundary aware models, use the following command:
 
 `python trainBoundaryModels.py --b 4 --e 300 --m unet --lr 0.001 --lambda_edge 0.5 --data_folder 'path where the data is stored' --output_folder 'path to save the results'
 `
