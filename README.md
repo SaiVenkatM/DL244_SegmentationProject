@@ -26,37 +26,17 @@ Organize the CT scans and their corresponding labels according to the format bel
 ```
 Data Folder:
      --data:
-            --images1:
-                     --ct1.nii.gz
-                     --ct2.nii.gz
-                     .
-                     .
-
-            --labels1:
-                     --label_ct1.nii.gz
-                     --label_ct2.nii.gz
-                     .
-                     .
+            --images1[folder]:ct1.nii.gz, ct2.nii.gz . . . .
+            --labels1[folder]:label_ct1.nii.gz,label_ct2.nii.gz . . . . 
 ```
 ### Organization of data for training boundary models:
 ```
 Data Folder:
      --data:
-            --images1:
-                     --ct1.nii.gz
-                     --ct2.nii.gz
-                     .
-                     .
-            --labels1:
-                     --label_ct1.nii.gz
-                     --label_ct2.nii.gz
-                     .
-                     .
-            --edges:
-                     --label_ct1.nii.gz
-                     --label_ct2.nii.gz
-                     .
-                     .
+            --images1[folder]: ct1.nii.gz, ct2.nii.gz . . . .
+            --labels1[folder]: label_ct1.nii.gz, label_ct2.nii.gz  . . . . . .
+            --edges[folder]: label_ct1.nii.gz, label_ct2.nii.gz . . . . . 
+                     
 ```
 ## Model Training 
 To train the baseline models, use the following command:
